@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TriviaApp</string>
+    <string name="trivia">Trivia</string>
+    <string name="highscore_0">Highscore: 0</string>
+</resources>

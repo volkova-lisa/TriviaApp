@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange"
+    android:padding="16dp"
+    tools:context=".StartingScreenActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/trivia"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+    <TextView
+        android:id="@+id/tv_highscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/highscore_0"
+        android:layout_above="@id/begin_trivia"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textColor="@color/white"/>
+    <Button
+        android:id="@+id/begin_trivia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Begin"
+
+        />
+
+
+</RelativeLayout>
